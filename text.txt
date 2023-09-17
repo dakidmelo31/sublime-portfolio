@@ -1,0 +1,8 @@
+    "@barba/core": "^2.9.7",
+    "anime": "^0.1.2",
+    "gsap": "file:gsap-bonus.tgz",
+    "jquery": "^3.7.1",
+    "spltjs": "^1.1.0",
+    "three": "^0.156.1",
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.8.1"

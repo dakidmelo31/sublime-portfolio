@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndoye Philip Ndula - Portfolio</title>
+    <!-- <meta name="theme-color" content="#000000"> -->
+    <meta name="theme-color" content="#f3f4fa" id="meta1">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+</head>
+<body data-barba="wrapper">
+    <div class="preloader">
+        <div class="divs" id="divs"></div>
+        <h5 class="pretext"><span id="percentage">0</span> <span>%</span></h5>
+    </div>
+
+    <script>
+        const loader = document.querySelector("#divs")
+        for(let i=0; i< 50; i++){
+            loader.innerHTML += "<div class='pre-column'></div>";
+        }
+    
+    </script>
+
+    <nav id="nav">
+        <a href="index.html">
+            <span>Home</span>
+            <span><i class="fa-solid fa-user"></i></span>
+        </a>
+        <a href="#contactMe">
+            <span>Contact Me</span>
+            <span><i class="fa-solid fa-phone"></i></span>
+        </a>
+
+        <a href="Fullstack_Developer_Ndoye_Philip_Ndula.pdf"  download="Fullstack Developer - Ndoye Philip Ndula - 650981130">
+            <span>Download CV</span>
+            <span><i class="fa-solid fa-cloud-download-alt"></i></span>
+        </a>
+
+    </nav>
+    
+    <div class="page" data-barba="container" data-barba-namespace="about">
+
+        <div class="about-heading" id="aboutMe">
+            <h2 class="h2">
+                My Projects
+            </h2>
+            <p class="and-projects">
+                And my Projects
+            </p>
+            <img src="assets/wave1.svg" alt="">
+            
+        </div>
+
+
+        <div class="details-section">
+
+            <div class="tabBar">
+          
+                <div class="tabs">
+                    <a href="#" class="active" id="story"></a>
+                    <a href="#" id="experience"></a>
+                    <a href="#" id="education"></a>
+                </div>
+
+            </div>
+
+            <div class="tabView">
+                <div class="descriptions">
+                    <div class="column story_description splt">
+                        I'm currently job-hunting and working as a Volunteer in the South West Development Authority (SOWEDA). I'm learning a lot 
+                        about networking and system administration in the field.
+
+                        I've grown significantly in the past 3 years of my professional exposure as a freelancer with a nice suite of professional projects built already like
+
+                        The Online Njangi platform and the Progress Fervent Life website softwares. 
+
+                        I'm happy to share with you my projects for a more closeup inspection and sparking discussions that may follow. Feel Free to Contact me for them.
+                    </div>
+                </div>
+
+                <div class="column experience_description splt">
+                </div>
+
+                <div class="column education_description splt">
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="projects" style="max-height: 0vh !important;">
+            <div class="project"></div>
+        </div>
+        <div class="freelance" style="max-height: 0vh !important;"></div>
+
+
+        <div class="outer_wave">
+            <img src="assets/wave2.svg" alt="">
+        </div>
+        <div class="contact_me" id="contactMe">
+            <h2 class="h2">
+                Let's Talk🫡
+            </h2>
+
+            <p>Let's collaborate and start a conversation!</p>
+            <div class="row">
+
+                <a href="mailto:ndoyephilipndula@gmail.com">NdoyePhilipndula@gmail.com</a>
+
+                <div class="other-links">
+                    <a href="tel:+237650981130"><span>Call Me</span> <span><i class="fa fa-sm fa-arrow-right"></i></span> <div></div></a>
+                    <a href="https://wa.me/237650981130"><span>Whatsapp</span> <span><i class="fa  fa-sm  fa-arrow-right"></i></span> <div></div></a>
+                    <a href="https://t.me/237650981130"><span>Telegram</span> <span><i class="fa fa-sm  fa-arrow-right"></i></span> <div></div></a>
+                    <a href="https://twitter.com"><span>X</span> <span><i class="fa fa-arrow-right fa-sm "></i></span> <div></div></a>
+                    <a href="ndoyephilipndula_software_engineer_cv.pdf"><span>Read.cv</span> <span><i class="fa fa-sm  fa-arrow-right"></i></span> <div></div></a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="thanks">
+            <h1 data-tilt><span id="you_rock">You Rock</span> <div class="period"></div></h1>
+        </div>
+
+
+
+        <!-- <div class="outer_wave">
+            <img src="assets/wave1.svg" alt="">
+        </div> -->
+
+
+    </div>
+
+    <footer>
+        <p>&copy; All Rights Reserved</p>
+        <p>Built With NodeJS</p>
+
+    </footer>
+
+    <script src="fonts/fontawesome/js/all.js"></script>
+    <script src="node_modules/vanilla-tilt/src/vanilla-tilt.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

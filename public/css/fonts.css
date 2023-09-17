@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: "Audiowide";
+    src: url("../fonts/Audiowide/Audiowide-Regular.ttf");
+}
+@font-face {
+    font-family: "Briyani";
+    src: url("../fonts/Biryani/Biryani-Regular.ttf");
+}
+@font-face {
+    font-family: "Phudu";
+    src: url("../fonts/Phudu/Phudu-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Codystar';
+    src: url("../fonts/Codystar/Codystar-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'VictorMono';
+    src:url("../fonts/Victor_Mono/VictorMono-VariableFont_wght.ttf"), url("../fonts/Victor_Mono/VictorMono-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Italiana';
+    src:url("../fonts/Italiana/Italiana-Regular.ttf");
+}
+@font-face {
+    font-family: 'Jost';
+    src:url("../fonts/Jost/Jost-VariableFont_wght.ttf");
+}
